@@ -602,7 +602,9 @@ const Home: React.FC = () => {
             <div 
               className="testimonials-track"
               style={{ 
-                transform: `translateX(${(1 - currentTestimonial) * (670 + 32)}px)` 
+                transform: window.innerWidth <= 480 
+                  ? `translateX(calc(50% - 140px - ${currentTestimonial * (280 + 16)}px))` 
+                  : `translateX(${(1 - currentTestimonial) * (670 + 32)}px)`
               }}
             >
               <div className={`testimonial-card ${currentTestimonial === 0 ? 'active' : ''}`}>
@@ -682,121 +684,121 @@ const Home: React.FC = () => {
             {/* First set */}
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Brand Identity</span>
+              <span className="service-text-2">Website Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Print Design</span>
+              <span className="service-text-2">Application Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Social Media</span>
+              <span className="service-text-2">Logo Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Packaging Design</span>
+              <span className="service-text-2">Brochure Design</span>
             </div>
             {/* Second set for seamless loop */}
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Brand Identity</span>
+              <span className="service-text-2">Website Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Print Design</span>
+              <span className="service-text-2">Application Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Social Media</span>
+              <span className="service-text-2">Logo Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Packaging Design</span>
+              <span className="service-text-2">Brochure Design</span>
             </div>
             {/* Third set for continuous flow */}
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Brand Identity</span>
+              <span className="service-text-2">Website Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Print Design</span>
+              <span className="service-text-2">Application Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Social Media</span>
+              <span className="service-text-2">Logo Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Packaging Design</span>
+              <span className="service-text-2">Brochure Design</span>
             </div>
             {/* Fourth set for perfect loop */}
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Brand Identity</span>
+              <span className="service-text-2">Website Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Print Design</span>
+              <span className="service-text-2">Application Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Social Media</span>
+              <span className="service-text-2">Logo Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Packaging Design</span>
+              <span className="service-text-2">Brochure Design</span>
             </div>
             {/* Fifth set for seamless continuity */}
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Brand Identity</span>
+              <span className="service-text-2">Website Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Print Design</span>
+              <span className="service-text-2">Application Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Social Media</span>
+              <span className="service-text-2">Logo Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Packaging Design</span>
+              <span className="service-text-2">Brochure Design</span>
             </div>
             {/* Sixth set for perfect continuity */}
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Brand Identity</span>
+              <span className="service-text-2">Website Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Print Design</span>
+              <span className="service-text-2">Application Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Social Media</span>
+              <span className="service-text-2">Logo Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Packaging Design</span>
+              <span className="service-text-2">Brochure Design</span>
             </div>
             {/* Seventh set for infinite loop */}
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Brand Identity</span>
+              <span className="service-text-2">Website Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Print Design</span>
+              <span className="service-text-2">Application Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Social Media</span>
+              <span className="service-text-2">Logo Design</span>
             </div>
             <div className="service-item-2">
               <span className="star-icon-2">✦</span>
-              <span className="service-text-2">Packaging Design</span>
+              <span className="service-text-2">Brochure Design</span>
             </div>
           </div>
         </div>

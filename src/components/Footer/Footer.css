@@ -121,3 +121,136 @@
 @media (max-width: 640px) {
   .footer-right { grid-template-columns: 1fr; }
 }
+
+/* Mobile-specific Footer Styling */
+@media (max-width: 480px) {
+  .footer {
+    margin-top: -20px;
+  }
+
+  .footer-wrap {
+    padding: 2rem 1rem 2rem;
+  }
+
+  .footer-heading {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    line-height: 1.2;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .footer-left {
+    text-align: left;
+    gap: 1.2rem;
+  }
+
+  .footer-logo {
+    width: 100px;
+    margin: 0;
+    margin-top: 0;
+  }
+
+  .footer-desc {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    max-width: 100%;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .footer-social {
+    justify-content: flex-start;
+    gap: 12px;
+    margin-top: 0;
+  }
+
+  .social-pill {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-pill svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-right {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .footer-col {
+    text-align: left;
+  }
+
+  .footer-col:nth-child(2),
+  .footer-col:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .col-title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .col-list {
+    gap: 0.6rem;
+    margin-top: 0;
+  }
+
+  .col-list a {
+    font-size: 0.9rem;
+  }
+
+  .contact-items {
+    gap: 0.6rem;
+    margin-top: 0;
+  }
+
+  .contact-items a {
+    font-size: 0.9rem;
+  }
+
+  .subscribe {
+    width: 250px;
+    height: 40px;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: -1.5rem;
+  }
+
+  .subscribe-input {
+    height: 44px;
+    padding: 0 16px;
+    font-size: 0.8rem;
+    margin-left: 0;
+  }
+
+  .subscribe-input::placeholder {
+    font-size: 0.8rem;
+  }
+
+  .subscribe-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 1rem;
+  }
+
+  .footer-bottom-bar {
+    margin-top: 2rem;
+  }
+
+  .bottom-inner {
+    padding: 0.8rem 1rem;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+}

@@ -3151,7 +3151,6 @@
   /* full-bleed */
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  margin-top: 50px;
 }
 
 /* The cream diagonals */
@@ -3285,7 +3284,8 @@
     /* full-bleed */
     width: 100vw;
     margin-left: calc(-50vw + 50%);
-    margin-top: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   
   /* The cream diagonals - REMOVED for mobile */

@@ -1007,6 +1007,7 @@
 @media (max-width: 480px) {
   .hero {
     padding: 1.5rem 0.5rem;
+    margin-top: 1rem;
   }
   
   .greeting-box {
